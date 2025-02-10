@@ -1,4 +1,7 @@
 package academy.javapro;
 
-public class Electric {
+interface Electric
+{
+    void charge();
+    boolean isCharging();
 }
